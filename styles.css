@@ -53,7 +53,7 @@
 #projects {
     width: 275px;
     height: 200px;
-    padding-bottom: 10px;
+/*    padding-bottom: 10px;*/
     padding-left: 20px;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .pro-heading {
-    padding-top: 10px;
+/*    padding-top: 10px;*/
     padding-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -106,6 +106,5 @@
 }
 
 .links {
-    padding-left: 30px;
-    margin-left: 50px;
+    margin-left: 90px;
 }

@@ -64,13 +64,13 @@
         padding-top: 13px;
     }
     #projects {
-        width: 115px;
-        height: 75px;
-        padding-bottom: 10px;
+        width: 250px;
+        height: 150px;
+        /*        padding-bottom: 10px;*/
         padding-right: 5px;
     }
     .pro-heading {
-        padding-top: 10px;
+        /*        padding-top: 10px;*/
         padding-bottom: 5px;
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -79,15 +79,18 @@
     }
     .top3 {
         color: grey;
-        font-size: 8px;
+        font-size: 10px;
         font-family: 'Inconsolata', serif;
     }
     .top4 {
         color: grey;
-        font-size: 6px;
+        font-size: 10px;
         font-family: 'Inconsolata', serif;
     }
     .pro {
         padding-left: 0px;
+    }
+    .links {
+        margin-left: 90px;
     }
 }
