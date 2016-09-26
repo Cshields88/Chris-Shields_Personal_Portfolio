@@ -2,6 +2,10 @@
 @import "mixins.less";
 
 body {
+<<<<<<< HEAD
+=======
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+>>>>>>> refs/remotes/origin/master
 	overflow-x: hidden;
 }
 
@@ -18,7 +22,11 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+<<<<<<< HEAD
 	color: @brand-success;
+=======
+	color: @theme-success;
+>>>>>>> refs/remotes/origin/master
 	outline: none;
 }
 
@@ -54,17 +62,29 @@ hr.star-light {
 }
 
 hr.star-light:after {
+<<<<<<< HEAD
     background-color: @brand-success;
+=======
+    background-color: @theme-success;
+>>>>>>> refs/remotes/origin/master
     color: white;
 }
 
 hr.star-primary {
+<<<<<<< HEAD
     border-color: @brand-primary;
+=======
+    border-color: @theme-primary;
+>>>>>>> refs/remotes/origin/master
 }
 
 hr.star-primary:after {
     background-color: white;
+<<<<<<< HEAD
     color: @brand-primary;
+=======
+    color: @theme-primary;
+>>>>>>> refs/remotes/origin/master
 }
 
 .img-centered {
@@ -73,7 +93,11 @@ hr.star-primary:after {
 
 header {
 	text-align: center;
+<<<<<<< HEAD
 	background: @brand-success;
+=======
+	background: @theme-success;
+>>>>>>> refs/remotes/origin/master
 	color: white;
 	.container {
 		padding-top: 100px;
@@ -115,8 +139,73 @@ header {
 	}
 }
 
+<<<<<<< HEAD
 @media(min-width:768px) {
     .navbar-fixed-top {
+=======
+.navbar-custom {
+	background: @theme-primary;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	a:focus {
+		outline: none;
+	}
+	.navbar-brand {
+		color: white;
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+			color: white;
+		}
+	}
+	.navbar-nav {
+		letter-spacing: 1px;
+		li {
+			a {
+				color: white;
+				&:hover {
+					color: @theme-success;
+					outline: none;
+				}
+				&:focus,
+				&:active {
+					color: white;
+				}
+			}
+			&.active {
+				a {
+					color: white;
+					background: @theme-success;
+					&:hover,
+					&:focus,
+					&:active {
+						color: white;
+						background: @theme-success;
+					}
+				}
+			}
+		}
+	}
+	.navbar-toggle {
+		color: white;
+		text-transform: uppercase;
+		font-size: 10px;
+		border-color: white;
+		&:hover,
+		&:focus {
+			background-color: @theme-success;
+			color: white;
+			border-color: @theme-success;
+		}
+	}
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+>>>>>>> refs/remotes/origin/master
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
@@ -128,7 +217,11 @@ header {
 	        transition: all 0.3s;
 	    }
     }
+<<<<<<< HEAD
     .navbar-fixed-top.navbar-shrink {
+=======
+    .navbar-custom.affix {
+>>>>>>> refs/remotes/origin/master
         padding: 10px 0;
 		.navbar-brand {
 	        font-size: 1.5em;
@@ -136,6 +229,7 @@ header {
 	}
 }
 
+<<<<<<< HEAD
 .navbar {
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
@@ -158,6 +252,8 @@ header {
 	border: none;
 }
 
+=======
+>>>>>>> refs/remotes/origin/master
 section {
     padding: 100px 0;
     h2 {
@@ -167,6 +263,7 @@ section {
 }
 
 section.success {
+<<<<<<< HEAD
 	background: @brand-success;
 	color: white;
 
@@ -178,6 +275,10 @@ section.success {
       color: @brand-primary;
       outline: none;
     }
+=======
+	background: @theme-success;
+	color: white;
+>>>>>>> refs/remotes/origin/master
 }
 
 @media(max-width:767px) {
@@ -199,7 +300,11 @@ section.success {
             max-width: 400px;
             margin: 0 auto;
             .caption {
+<<<<<<< HEAD
                 background: fade(@brand-success, 90%);
+=======
+                background: fade(@theme-success, 90%);
+>>>>>>> refs/remotes/origin/master
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -243,6 +348,7 @@ section.success {
     }
 }
 
+<<<<<<< HEAD
 .btn-outline {
 	color: white;
 	font-size: 20px;
@@ -260,6 +366,8 @@ section.success {
 	}
 }
 
+=======
+>>>>>>> refs/remotes/origin/master
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -309,7 +417,11 @@ section.success {
 
 .floating-label-form-group-with-focus {
 	label {
+<<<<<<< HEAD
 	    color: @brand-success;
+=======
+	    color: @theme-success;
+>>>>>>> refs/remotes/origin/master
 	}
 }
 
@@ -324,17 +436,57 @@ footer {
 	}
 	.footer-above {
 		padding-top: 50px;
+<<<<<<< HEAD
 		background-color: @brand-primary;
+=======
+		background-color: @theme-primary;
+>>>>>>> refs/remotes/origin/master
 	}
 	.footer-col {
 		margin-bottom: 50px;
 	}
 	.footer-below {
 		padding: 25px 0;
+<<<<<<< HEAD
 		background-color: darken(@brand-primary, 5%);
 	}
 }
 
+=======
+		background-color: darken(@theme-primary, 5%);
+	}
+}
+
+// Buttons
+
+.btn-outline {
+	color: white;
+	font-size: 20px;
+	border: solid 2px white;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: @theme-success;
+		background: white;
+		border: solid 2px white;
+	}
+}
+
+.btn-primary {
+	.button-variant(white; @theme-primary; @theme-primary);
+	font-weight: 700;
+}
+
+.btn-success {
+	.button-variant(white; @theme-success; @theme-success);
+	font-weight: 700;
+}
+
+>>>>>>> refs/remotes/origin/master
 .btn-social {
 	display: inline-block;
 	height: 50px;
@@ -407,7 +559,11 @@ footer {
             height:75px;
             width:1px;
             margin-left:35px;
+<<<<<<< HEAD
             background-color:@brand-primary;
+=======
+            background-color:@theme-primary;
+>>>>>>> refs/remotes/origin/master
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             /* IE 9 */
@@ -417,7 +573,11 @@ footer {
             .rl {
                 height:75px;
                 width:1px;
+<<<<<<< HEAD
                 background-color:@brand-primary;
+=======
+                background-color:@theme-primary;
+>>>>>>> refs/remotes/origin/master
                 transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
                 /* IE 9 */

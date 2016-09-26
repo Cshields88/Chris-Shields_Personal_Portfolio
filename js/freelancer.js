@@ -12,7 +12,11 @@ $(function() {
         $('html, body')
         .bind('scroll mousedown DOMMouseScroll mousewheel keyup', function(){
           $('html, body').stop();
+<<<<<<< HEAD
         })
+=======
+      })
+>>>>>>> refs/remotes/origin/master
         .stop()
         .animate({
             scrollTop: $($anchor.attr('href')).offset().top
